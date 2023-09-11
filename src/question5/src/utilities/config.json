@@ -1,0 +1,116 @@
+{
+	"selections": {
+		"sources": [
+			{
+				"value": "cnn",
+				"label": "CNN"
+			},
+			{
+				"value": "bbc",
+				"label": "BBC"
+			}
+		],
+		"categories": [
+			{
+				"value": "general",
+				"label": "Uncategorized News"
+			},
+			{
+				"value": "business",
+				"label": "Business News"
+			},
+			{
+				"value": "entertainment",
+				"label": "Entertainment News"
+			},
+			{
+				"value": "health",
+				"label": "Health News"
+			},
+			{
+				"value": "science",
+				"label": "Science News"
+			},
+			{
+				"value": "sports",
+				"label": "Sports News"
+			},
+			{
+				"value": "technology",
+				"label": "Technology News"
+			}
+		],
+		"countries": [
+			{
+				"value": "au",
+				"label": "Australia"
+			},
+			{
+				"value": "at",
+				"label": "Austria"
+			},
+			{
+				"value": "in",
+				"label": "India"
+			},
+			{
+				"value": "cn",
+				"label": "China"
+			}
+		],
+		"languages": [
+			{
+				"value": "ar",
+				"label": "Arabic"
+			},
+			{
+				"value": "de",
+				"label": "German"
+			},
+			{
+				"value": "en",
+				"label": "English"
+			},
+			{
+				"value": "es",
+				"label": "Spanish"
+			},
+			{
+				"value": "fr",
+				"label": "French"
+			},
+			{
+				"value": "he",
+				"label": "Hebrew"
+			},
+			{
+				"value": "it",
+				"label": "Italian"
+			},
+			{
+				"value": "nl",
+				"label": "Dutch"
+			},
+			{
+				"value": "no",
+				"label": "Norwegian"
+			},
+			{
+				"value": "pt",
+				"label": "Portuguese"
+			},
+			{
+				"value": "ru",
+				"label": "Russian"
+			},
+			{
+				"value": "se",
+				"label": "Swedish"
+			},
+			{
+				"value": "zh",
+				"label": "Chinese"
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+main {
+	.newsList {
+		display: grid;
+		grid-template-columns: 1;
+		gap: 2rem;
+		place-content: center;
+		position: relative;
+		top: -125px;
+	}
+}
