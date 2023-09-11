@@ -8,6 +8,10 @@ html {
 	color-scheme: light dark;
 }
 
+body {
+	font-family: "Roboto", sans-serif;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
