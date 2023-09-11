@@ -138,3 +138,7 @@ PUT /post
 ## 补充信息
 
 希望HKUPootal的笔试官看过来. 我发现第五题你们给出的那个proxy无法正确的发送mediastack的请求. 有时还会出现server error. 所以我并没有使用你们的代理服务器. 但是! 为了能够发送请求到mediastack那边, 我选择在本地开启vpn来访问. 所以, 第五题的成果部署在互联网上的是无法访问mediastack的, 我希望能够在面试的时候, 当面给你们展示效果. 为了补偿无法在线访问我第五题的成果, 我将一些网站的截图放置在了question5里, 可以查看作为一个粗略评价
+
+
+
+第三问页面我部署在了该地址下: [Document (ivanfan-van.github.io)](https://ivanfan-van.github.io/HKUPootal/src/question3/index.html)
