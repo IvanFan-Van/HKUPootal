@@ -8,8 +8,10 @@ const { Search } = Input;
 
 let queryObj = {};
 const SearchBoard = ({ setLiveNews }) => {
+	// constructing the query object containing optional params
 	function setQueryObj(type, value) {
-		if (value == undefined || value == null || value == "") {
+		if (value == undefined || value == null || value === "") {
+			delete queryObj[type];
 			return;
 		}
 		queryObj[type] = value;
@@ -30,6 +32,7 @@ const SearchBoard = ({ setLiveNews }) => {
 	return (
 		<div className={css.board}>
 			<h2 className={css.title}>Search News</h2>
+
 			<div className={css.searchBox}>
 				<Search
 					placeholder="input search text"
