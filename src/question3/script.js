@@ -12,7 +12,10 @@ const form = document.querySelector("form");
 
 // 实时监测 + 正则表达式 检查输入内容是否符合邮箱格式
 function emailFormatCheck(email) {
-	const reg = /^\w*(\-\w)?(\.\w*)?@\w*(-\w*)?\.\w{2,3}(\.\w{2,3})?$/;
+	// check for correctness as an email
+	// const reg = /^\w*(\-\w)?(\.\w*)?@\w*(-\w*)?\.\w{2,3}(\.\w{2,3})?$/;
+	// check for correctness as an HKU email
+	const reg = /[\w-]+@((connect.hku.hk)|(hku.hk))/;
 	return reg.test(email);
 }
 
