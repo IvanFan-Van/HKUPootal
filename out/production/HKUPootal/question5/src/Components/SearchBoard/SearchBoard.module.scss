@@ -1,0 +1,24 @@
+.board {
+	background: #284d9b;
+	width: 100%;
+	padding-block: 20px;
+	padding-inline: 45px;
+	height: 400px;
+
+	.title {
+		color: white;
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.searchBox {
+		width: fit-content;
+		margin-inline: auto;
+		margin-bottom: 2.5rem;
+	}
+
+	.controlBox {
+		width: fit-content;
+		margin-inline: auto;
+	}
+}

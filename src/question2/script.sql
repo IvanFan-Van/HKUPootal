@@ -1,18 +1,23 @@
-SELECT emp_name,
-       emp_salary
+-- # Select max salary from each department
+-- # SELECT MAX(emp_salary) AS max_salary,
+-- #        dept_id,
+-- #        emp_id
+-- # FROM employee
+-- # GROUP BY dept_id;
+
+
+SELECT
+       e.emp_name,
+       e.emp_salary,
+       d.dept_name
 FROM
-    Employee e
-JOIN
-    (
-        SELECT
-            MAX(e.emp_salary) AS max_salary,
-            e.emp_id,
-            d.dept_name
-        FROM Employee e
-        JOIN Department d
-        ON d.dept_id = e.dept_id
-        GROUP BY d.dept_id
-    ) subquery
-ON  e.emp_id = subquery.emp_id
-ORDER BY
-    subquery.dept_name ASC
+    employee e
+    JOIN
+        (SELECT MAX(emp_salary) AS max_salary
+        FROM employee
+        GROUP BY dept_id) subquery
+    ON subquery.max_salary = e.emp_salary
+    JOIN department d
+    ON d.dept_id = e.dept_id
+    ORDER BY d.dept_name ASC;
+
